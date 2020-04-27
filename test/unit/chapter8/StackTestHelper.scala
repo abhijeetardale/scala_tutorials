@@ -1,6 +1,6 @@
-package unit.chapter7
+package unit.chapter8
 
-import chapter7.Stack
+import chapter8.Stack
 
 trait StackTestHelper {
 

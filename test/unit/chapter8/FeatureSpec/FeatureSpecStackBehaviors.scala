@@ -1,6 +1,6 @@
-package unit.chapter7.FeatureSpec
+package unit.chapter8.FeatureSpec
 
-import chapter7.Stack
+import chapter8.Stack
 import org.scalatest.GivenWhenThen
 import org.scalatest.featurespec.AnyFeatureSpec
 

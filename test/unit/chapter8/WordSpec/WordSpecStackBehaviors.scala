@@ -1,6 +1,6 @@
-package unit.chapter7.WordSpec
+package unit.chapter8.WordSpec
 
-import chapter7.Stack
+import chapter8.Stack
 import org.scalatest.wordspec.AnyWordSpec
 
 /**

@@ -1,8 +1,8 @@
-package unit.chapter7.FeatureSpec
+package unit.chapter8.FeatureSpec
 
 import org.scalatest.GivenWhenThen
 import org.scalatest.featurespec.AnyFeatureSpec
-import unit.chapter7.StackTestHelper
+import unit.chapter8.StackTestHelper
 
 class StackFeatureSpec extends AnyFeatureSpec with GivenWhenThen with FeatureSpecStackBehaviors with StackTestHelper {
 

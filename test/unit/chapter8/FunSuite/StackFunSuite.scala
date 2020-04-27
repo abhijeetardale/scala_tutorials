@@ -1,7 +1,7 @@
-package unit.chapter7.FunSuite
+package unit.chapter8.FunSuite
 
 import org.scalatest.funsuite.AnyFunSuite
-import unit.chapter7.StackTestHelper
+import unit.chapter8.StackTestHelper
 /**
   * Created by user on 07/08/17.
   */

@@ -1,7 +1,7 @@
-package unit.chapter7.WordSpec
+package unit.chapter8.WordSpec
 
 import org.scalatest.wordspec.AnyWordSpec
-import unit.chapter7.StackTestHelper
+import unit.chapter8.StackTestHelper
 
 /**
   * Created by user on 07/08/17.

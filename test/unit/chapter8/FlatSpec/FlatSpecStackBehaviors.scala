@@ -1,6 +1,6 @@
-package unit.chapter7.FlatSpec
+package unit.chapter8.FlatSpec
 
-import chapter7.Stack
+import chapter8.Stack
 import org.scalatest.flatspec.AnyFlatSpec
 /**
   * Created by user on 07/08/17.

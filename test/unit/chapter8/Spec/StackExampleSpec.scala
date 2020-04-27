@@ -1,7 +1,7 @@
-package unit.chapter7.Spec
+package unit.chapter8.Spec
 
 import org.scalatest.refspec.RefSpec
-import unit.chapter7.StackTestHelper
+import unit.chapter8.StackTestHelper
 
 class StackExampleSpec extends RefSpec  with StackTestHelper {
 

@@ -1,31 +1,30 @@
-package unit.chapter7.FreeSpec
+package unit.chapter8.FunSpec
 
-import chapter7.Stack
-import org.scalatest.freespec.AnyFreeSpec
-
+import chapter8.Stack
+import org.scalatest.funspec.AnyFunSpec
 /**
   * Created by user on 07/08/17.
   */
-trait FreeSpecStackBehaviors { this: AnyFreeSpec =>
+trait FunSpecStackBehaviors { this: AnyFunSpec =>
 
   def nonEmptyStack(newStack: => Stack[Int], lastItemAdded: Int): Unit = {
 
-    "be non-empty" in {
+    it("should be non-empty") {
       assert(!newStack.empty)
     }
 
-    "return the top item on peek" in {
+    it("should return the top item on peek") {
       assert(newStack.peek === lastItemAdded)
     }
 
-    "not remove the top item on peek" in {
+    it("should not remove the top item on peek") {
       val stack = newStack
       val size = stack.size
       assert(stack.peek === lastItemAdded)
       assert(stack.size === size)
     }
 
-    "remove the top item on pop" in {
+    it("should remove the top item on pop") {
       val stack = newStack
       val size = stack.size
       assert(stack.pop === lastItemAdded)
@@ -35,11 +34,11 @@ trait FreeSpecStackBehaviors { this: AnyFreeSpec =>
 
   def nonFullStack(newStack: => Stack[Int]): Unit = {
 
-    "not be full" in {
+    it("should not be full") {
       assert(!newStack.full)
     }
 
-    "add to the top on push" in {
+    it("should add to the top on push") {
       val stack = newStack
       val size = stack.size
       stack.push(7)

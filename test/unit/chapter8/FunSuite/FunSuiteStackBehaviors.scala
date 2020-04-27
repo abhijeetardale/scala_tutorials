@@ -1,6 +1,6 @@
-package unit.chapter7.FunSuite
+package unit.chapter8.FunSuite
 
-import chapter7.Stack
+import chapter8.Stack
 import org.scalatest.funsuite.AnyFunSuite
 /**
   * Created by user on 07/08/17.

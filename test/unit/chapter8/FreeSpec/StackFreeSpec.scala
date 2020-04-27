@@ -1,7 +1,7 @@
-package unit.chapter7.FreeSpec
+package unit.chapter8.FreeSpec
 
 import org.scalatest.freespec.AnyFreeSpec
-import unit.chapter7.StackTestHelper
+import unit.chapter8.StackTestHelper
 /**
   * Created by user on 07/08/17.
   */

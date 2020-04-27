@@ -1,7 +1,7 @@
-package unit.chapter7.FlatSpec
+package unit.chapter8.FlatSpec
 
 import org.scalatest.flatspec.AnyFlatSpec
-import unit.chapter7.StackTestHelper
+import unit.chapter8.StackTestHelper
 
 /**
   * Created by user on 07/08/17.

@@ -1,7 +1,7 @@
-package unit.chapter7.FunSpec
+package unit.chapter8.FunSpec
 
 import org.scalatest.funspec.AnyFunSpec
-import unit.chapter7.StackTestHelper
+import unit.chapter8.StackTestHelper
 /**
   * Created by user on 07/08/17.
   */
